@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Grocery from './components/GroceryList.vue'
+import GalleryPhotos from './components/Gallery.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Grocery List" />
+  <!--Grocery msg="Grocery List" /-->
+  <GalleryPhotos msg="Snack Gallery"/>
 </template>
 
 <style scoped>
